@@ -1,0 +1,25 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {
+    "connect": "^3.6.6",
+    "connect-livereload": "^0.6.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-less": "^4.0.1",
+    "gulp-livereload": "^4.0.0",
+    "gulp-scss": "^1.4.0",
+    "tiny-lr": "^1.1.1"
+  }
+}

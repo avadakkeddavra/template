@@ -1,0 +1,59 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #eee;
+}
+header {
+  background: url('../assets/bg.png');
+  height: 480px;
+  position: relative;
+}
+header .bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(186, 104, 200, 0.9);
+}
+header nav {
+  box-shadow: none;
+  padding: 0px 80px !important;
+  background-color: transparent !important;
+}
+header .title {
+  position: absolute;
+  z-index: 100;
+  text-align: left;
+  width: 100%;
+  padding-left: 80px;
+  top: 22%;
+}
+header .title h1 {
+  font-weight: 500;
+}
+header .title p {
+  display: block;
+  width: 40%;
+  font-size: 16px;
+}
+header .title button.btn-flat {
+  line-height: 35px;
+}
+section.main {
+  padding: 0;
+  padding-bottom: 40px;
+}
+section.main .tabs {
+  padding-left: 80px;
+  margin-bottom: 40px;
+  background-color: #ab47bc !important;
+}
+section.main .tabs li a {
+  display: block;
+}
+section.main .container .card img {
+  height: 300px;
+}
+footer {
+  background-color: rgba(186, 104, 200, 0.9) !important;
+}
